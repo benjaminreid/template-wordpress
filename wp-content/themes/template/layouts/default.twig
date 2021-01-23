@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html class="no-js" {{ site.language_attributes }}>
+	<head>
+		<title>{{ site.name }}</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="{{ theme.path }}/style.css">
+
+		{{ function("wp_head") }}
+	</head>
+	<body>
+		{% block main %}{% endblock %}
+		{{ function("wp_footer") }}
+	</body>
+</html>
