@@ -1,6 +1,11 @@
-# template-wordpress
+# WordPress Template
 
-A starting point for my WordPress sites
+A starting point for my WordPress sites that is ready to go with Timber.
+
+:scissors:
+---
+
+# Template
 
 ## Running locally
 
