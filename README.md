@@ -27,6 +27,7 @@ Install any dependencies.
 
 ```
 yarn install
+composer install
 ```
 
 To run the site locally, [`valet`](https://laravel.com/docs/8.x/valet) can be used from the root directory.
