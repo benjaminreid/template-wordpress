@@ -9,4 +9,6 @@
         return;
     }
 
+    Timber\Timber::$dirname = ['components', 'views'];
+
     $timber = new Timber\Timber();
